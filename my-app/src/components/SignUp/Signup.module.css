@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+}
+.imgwrapper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+    
+}
+.imgwrapper img{
+    width: 100%;
+}
+.formContainer{
+    width: 50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 550px;
+    width: 400px;
+    padding: 20px 60px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #efefef63;
+    border-radius:10px ;
+    /* background-color: red; */
+}
+.form h2{
+    color: rgb(20, 20, 20);
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.form .inputwrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form .inputwrapper label{
+    font-size:16px  ;
+   color: rgb(39, 84, 146);  
+   margin-bottom: 5px;
+}
+.form .inputwrapper input{
+    width: 250px;
+   height: 25px;
+   border: 1px solid #dedcdc;
+   border-radius: 5px;
+   outline: none;
+   padding: 5px 10px;
+}
+.form .inputwrapper:nth-child(6) div label{
+    font-size: 15px;
+    color: rgb(52, 52, 152);
+    margin-right: 40px;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.form .inputwrapper:nth-child(6) .flex input{
+    width:14px;
+}
+.form .inputwrapper:nth-child(6) .flex input:checked{
+border-radius: 50%;
+}
+.form .inputwrapper span{
+    position: absolute;
+    font-size: 14px;
+    color: red;
+    padding: 5px 0;
+    bottom: -25px;
+}
+.buttoncontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
